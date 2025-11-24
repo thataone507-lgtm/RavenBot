@@ -398,4 +398,4 @@ function checkLangObject(data, langCode) {
         if (typeof data == "object" && !Array.isArray(data))
                 return data[langCode] || data.en || undefined;
         return undefined;
-                        }
+                                }
